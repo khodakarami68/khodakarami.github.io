@@ -1,7 +1,7 @@
 body
 {
    background-color: #FFFFFF;
-   background-image: url(images/index_bkgrnd.png);
+   background-image: url(/index_bkgrnd.png);
    color: #000000;
    font-family: Arial;
    font-weight: normal;
