@@ -1,8 +1,8 @@
 body
 {
-   background-color: #A0C0FF;
-   background-image: url(/index_bkgrnd.png);
-   color: #003D80;
+   background-color: #FFFFFF;
+   background-image: url(images/index_bkgrnd.png);
+   color: #000000;
    font-family: Arial;
    font-weight: normal;
    font-size: 13px;
@@ -17,17 +17,31 @@ body
    border: 0px solid #000000;
    padding: 0;
    margin: 0;
-   text-align: center;
+   text-align: left;
 }
 #wb_Text1 div
 {
-   text-align: center;
+   text-align: left;
 }
 #wb_Image1
 {
    vertical-align: top;
 }
 #Image1
+{
+   border: 0px solid #000000;
+   padding: 0;
+   margin: 0;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+}
+#wb_Image2
+{
+   vertical-align: top;
+}
+#Image2
 {
    border: 0px solid #000000;
    padding: 0;
@@ -50,67 +64,17 @@ body
 {
    text-align: left;
 }
-#wb_Text3 
+#wb_Image3
 {
-   background-color: transparent;
-   background-image: none;
+   vertical-align: top;
+}
+#Image3
+{
    border: 0px solid #000000;
    padding: 0;
    margin: 0;
-   text-align: left;
-}
-#wb_Text3
-{
-   color: #00008B;
-   font-family: Arial;
-   font-weight: normal;
-   font-size: 19px;
-   line-height: 21px;
-}
-#wb_Text3 p, #wb_Text3 ul
-{
-   margin: 0;
-   padding: 0;
-}
-#wb_Text4 
-{
-   background-color: transparent;
-   background-image: none;
-   border: 0px solid #000000;
-   padding: 0;
-   margin: 0;
-   text-align: left;
-}
-#wb_Text4
-{
-   color: #000000;
-   font-family: Arial;
-   font-weight: normal;
-   font-size: 19px;
-   line-height: 21px;
-}
-#wb_Text4 p, #wb_Text4 ul
-{
-   margin: 0;
-   padding: 0;
-}
-#wb_ClipArt1
-{
-   transform: rotate(0deg);
-   transform-origin: 50% 50%;
-}
-#ClipArt1
-{
-   border-width: 0;
-   vertical-align: top;
-}
-#wb_ClipArt2
-{
-   transform: rotate(0deg);
-   transform-origin: 50% 50%;
-}
-#ClipArt2
-{
-   border-width: 0;
-   vertical-align: top;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
 }
